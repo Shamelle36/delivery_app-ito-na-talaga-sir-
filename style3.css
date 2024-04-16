@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar img{
+    width: 80px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.banner{
+    width: 100%;
+}
+
+.navbar{
+    background-color: orange;
+    width: 100%;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.644);
+}
+
+.navbar ul li{
+   list-style: none;
+    display: inline-block;
+    margin:0 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+}
+
+.search-engine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center; 
+  }
+
+  .search-button {
+    border: none;
+    background-color: transparent;
+    margin-top: .1em;
+    cursor: pointer;
+  }
+  
+  .form-input {
+    padding: 0.7rem 1rem;
+    border-radius: 30px;
+    width: 12em;
+    transition: all ease-in-out .5s;
+    margin-right: -2rem;
+
+    font-size: 14px;
+    width: 200px;
+    height: 30px;
+    flex: 1; 
+    outline: none !important;
+    padding: 10px 15px;
+    color: #0d0d25;
+    border-radius: 10px;
+    border: none;
+    background: #e0e0e0;
+    box-shadow: inset 7px 7px 10px #b5b5b5,
+                inset -7px -7px 10px #ffffff;
+  }
+  
+ 
+  
+ .notification-bell i, .user-icon i{
+    background: #e0e0e0;
+    box-shadow: inset 7px 7px 10px #b5b5b5,
+                inset -7px -7px 10px #ffffff;
+                margin-left: 10px;
+                width: 30px;
+                height: 30px;
+                border-radius: 5px;
+ }
+
+.fa-bell, .fa-user{
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .icons {
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ section{
+   padding-top: 250px;
+    
+ }
+
+ .home-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .text-content h3{
+    text-align: center;
+    font-size: 4rem;
+ }
+
+ .text-content p{
+    text-align: center;
+    font-size: 18px;
+ }
+
+ .search-restaurant input{
+    padding: 0.7rem 1rem;
+    transition: all ease-in-out .5s;
+    height: 30px;
+    border-radius: 20px;
+    width: 250px;
+ }
+ .search-restaurant button{
+    border-radius: 20px;
+    height: 30px;
+ }
+
+ 
+
+
+
